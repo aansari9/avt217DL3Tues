@@ -1,0 +1,36 @@
+body{
+background-color: lightblue;
+}
+@media screen and (max-width: 1200px) {
+  body{
+    background-color: orange;
+}
+}
+@media screen and (max-width: 500px) {
+  body{
+    background-color: lime;
+}
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+
+}
+.shape1{
+  width: 300px;
+  height: 300px;
+  
+  margin: 50px;
+  float: left;
+  border: 20px solid tomato;
+}
+.shape2{
+  width: 50px;
+  height: 100px;
+  background-color: lime;
+  margin: 50px 150px;
+  float: left;
+  border-radius: 50%;
+}
