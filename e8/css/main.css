@@ -1,0 +1,27 @@
+body{
+background-color: blue;
+}
+@media screen and (max-width: 1440px) {
+  body{
+    background-color: white;
+}
+}
+@media screen and (max-width: 1027px) {
+  body{
+    background-color: lime;
+}
+}
+@media screen and (max-width: 768px) {
+  body{
+    background-color: skyblue;
+}
+}
+@media screen and (max-width: 520px) {
+  body{
+    background-color: red;
+}
+}
+img{
+  max-width: 1080px;
+  max-height: 720px;
+}
