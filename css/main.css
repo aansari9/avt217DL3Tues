@@ -89,3 +89,18 @@ main {
   background-color: inherit;
   float:left;
 }
+@media screen and (max-width: 900px) {
+  .col {
+    width:100%;
+    margin-bottom: 50%;
+  }
+    header {
+      width: 90vw;
+    }
+    main {
+      width: 90vw;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+  }
