@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.board{
+  width: 900px;
+  padding: 50px;
+  display: flow-root;
+  background-color: blanchedalmond;
+  margin: 25px auto;
+
+}
+.red, .black {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.red {
+  background-color: lightblue;
+}
+.black {
+  background-color: seagreen;
+}
