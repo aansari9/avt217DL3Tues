@@ -1,0 +1,59 @@
+body{
+background-color: plum;
+}
+@media screen and (max-width: 1200px) {
+  body{
+    background-color: orange;
+}
+}
+@media screen and (max-width: 500px) {
+  body{
+    background-color: lime;
+}
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+
+}
+.shape1{
+  width: 100px;
+  height: 367px;
+
+  margin: -50px -175px;
+  float: left;
+  border: 20px solid red;
+  opacity: .5;
+}
+.shape2{
+  width: 300px;
+  height: 320px;
+  background-color: darkslateblue;
+  margin: -50px -140px;
+  float: left;
+
+  opacity: .5;
+
+}
+.shape3{
+  width: 200px;
+  height: 850px;
+  background-color: darkseagreen;
+  margin: -50px -130px;
+  float: left;
+
+  opacity: .5;
+
+}
+.shape4{
+  width: 250px;
+  height: 450px;
+  background-color: mediumslateblue;
+  margin: -50px -100px;
+  float: left;
+
+  opacity: .5;
+
+}

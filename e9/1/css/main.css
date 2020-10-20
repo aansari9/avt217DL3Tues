@@ -57,34 +57,3 @@ body{
   opacity: .5;
 
 }
-.sansserif {
-  font-family: impact;
-}
-a:link, a:visited {
-  color: black
-}
-li:hover, a:hover, a:active {
-  color: yellow;
-}
-li{
-  font-size: 2rem;
-  margin-bottom: 10px;
-  text-align: center;
-    font-family: impact;
-}
-ul li{
-  font-size: 3rem;
-}
-ul {
-  list-style-type: none;
-  margin: 100px;
-  padding: 100px;
-    font-family: impact;
-}
-.notbold{
-    font-weight:normal
-}​
-ul.ba {
-    list-style-type: none;
-    text-align: none;
-}
