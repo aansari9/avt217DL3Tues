@@ -8,14 +8,14 @@ margin: 0;
 
 h1{
   font-size: 4rem;
-  text-align: center;
+  text-align: left;
   font-family: Helvetica;
 }
 h2{
     font-size: 25px;
     margin-left: 10px;
     margin-right: 10px;
-    text-align: center;
+    text-align: left;
     font-family: Helvetica;
 }
 h3{
@@ -42,14 +42,18 @@ p{
 }
 a:link, a:visited {
   color: black
+
+}
+a:link {
+  text-decoration: none;
 }
 li:hover, a:hover, a:active {
-  color: yellow;
+  color: brown;
 }
 li{
   font-size: 2rem;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
   font-family: Helvetica;
 }
 ul li{
@@ -66,4 +70,22 @@ ul {
 ul.ba {
     list-style-type: none;
     text-align: none;
+}
+header {
+  width:75vw;
+  margin:25px auto;
+  background-color: inherit;
+
+}
+main {
+  width:75vw;
+  margin:25px auto;
+  background-color: inherit;
+  display: flow-root;
+
+}
+.col {
+  width: 50%;
+  background-color: inherit;
+  float:left;
 }
