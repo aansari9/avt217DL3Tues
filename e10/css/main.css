@@ -1,3 +1,42 @@
+.sansserif {
+  font-family: Helvetica;
+}
+body{
+background-color: azure;
+margin: 0;
+}
+a:link, a:visited {
+  color: black;
+
+}
+a:link {
+  text-decoration: none;
+}
+li:hover, a:hover, a:active {
+  color: brown;
+}
+li{
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Helvetica;
+  margin-top: 100px;
+}
+ul li{
+  font-size: 3rem;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.notbold{
+    font-weight:normal
+}​
+ul.ba {
+    list-style-type: none;
+    text-align: none;
+}
 * {
   box-sizing: border-box;
 }
@@ -22,4 +61,90 @@ body {
 }
 .black {
   background-color: seagreen;
+}
+.grid{
+  width: 880px;
+  padding: 50px;
+  display: flow-root;
+  background-color: azure;
+  margin: 25px auto;
+
+}
+.green {
+  width: 770px;
+  height: 90px;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.blue {
+  width: 770px;
+  height: 20px;
+  float: left;
+  margin-bottom: 10px;
+}
+.blue {
+  background-color: darkblue;
+}
+.green {
+  background-color: darkgreen;
+}
+.grey {
+  width: 250px;
+  height: 450px;
+  float: left;
+  margin-right: 10px;
+}
+.grey {
+  background-color: grey;
+}
+.back{
+  width: 900px;
+  padding: 50px;
+  display: flow-root;
+  background-color: white;
+  margin: 25px auto;
+
+}
+.teal {
+  width: 900px;
+  height: 150px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.teal {
+  background-color: teal;
+}
+.pink {
+  width: 700px;
+  height: 400px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 75px;
+}
+.pink {
+  background-color: lightpink;
+}
+.crimson {
+  width: 185px;
+  height: 200px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 75px;
+}
+.crimson {
+  background-color: crimson;
+}
+.yellow {
+  width: 700px;
+  height: 50px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.yellow {
+  background-color: yellow;
 }
