@@ -3,6 +3,7 @@ html{
 }
 body{
 background-image: linear-gradient(lightblue, white);
+background-repeat: no-repeat;
 margin: 0;
 }
 
