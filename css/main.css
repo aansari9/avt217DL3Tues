@@ -2,7 +2,7 @@ html{
   font-size: 16px;
 }
 body{
-background-color: lightblue;
+background-image: linear-gradient(lightblue, white);
 margin: 0;
 }
 
@@ -48,7 +48,7 @@ a:link {
   text-decoration: none;
 }
 li:hover, a:hover, a:active {
-  color: brown;
+  color: yellow;
 }
 li{
   font-size: 2rem;
