@@ -1,5 +1,6 @@
 html{
   font-size: 16px;
+  height: 100%;
 }
 body{
 background-image: linear-gradient(lightblue, white);
@@ -85,23 +86,3 @@ main {
   display: flow-root;
 
 }
-.col {
-  width: 50%;
-  background-color: inherit;
-  float:left;
-}
-@media screen and (max-width: 900px) {
-  .col {
-    width:100%;
-    margin-bottom: 50%;
-  }
-    header {
-      width: 90vw;
-    }
-    main {
-      width: 90vw;
-    }
-    h1 {
-      font-size: 3rem;
-    }
-  }
