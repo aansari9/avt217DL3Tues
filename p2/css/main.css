@@ -19,9 +19,17 @@ h2{
     color: teal;
 }
 h3{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-family: Helvetica;
+    color: white;
+}
+
+h4{
+    font-size: 15px;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
 }
 
 p{
@@ -80,7 +88,7 @@ main {
   display: flow-root;
 
 }
-header {
+header, footer {
   background-color: teal;
   font-family: 'Helvetica', sans-serif;
   padding: 25px 100px;
@@ -106,15 +114,28 @@ header {
   background-color: none;
 }
 
+.container-img {
+  width: 60%;
+  height: 450px;
+  float: left;
+  background-color: black;
+  padding: none;
+  margin: none;
+  margin-left: 50%;
+}
+
 nav{
 
   display: block;
 }
 
 img {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   margin: none;
   padding: none;
   display: flow-root;
+}
+footer{
+   display: block;
 }
