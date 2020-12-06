@@ -1,6 +1,7 @@
 html{
   font-size: 16px;
-  background-color: #E6E6FA;
+  background-color: lavender;
+
 }
 
 h1{
@@ -15,6 +16,7 @@ h2{
     margin-right: 10px;
     text-align: left;
     font-family: Helvetica;
+    color: teal;
 }
 h3{
     font-size: 25px;
@@ -107,4 +109,12 @@ header {
 nav{
 
   display: block;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+  margin: none;
+  padding: none;
+  display: flow-root;
 }
