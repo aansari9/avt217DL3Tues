@@ -1,7 +1,8 @@
 html{
   font-size: 16px;
   background-color: lavender;
-
+  margin: 0;
+  padding: 0;
 }
 
 h1{
@@ -75,15 +76,10 @@ ul.ba {
     list-style-type: none;
     text-align: none;
 }
-header {
-  width:75vw;
-  margin:25px auto;
-  background-color: inherit;
 
-}
 main {
   width:75vw;
-  margin:25px auto;
+  margin: 0;
   background-color: inherit;
   display: flow-root;
 
@@ -91,7 +87,8 @@ main {
 header, footer {
   background-color: teal;
   font-family: 'Helvetica', sans-serif;
-  padding: 25px 100px;
+  padding: 22px;
+  margin: 0;
 }
 .container1 {
   width: 300px;
@@ -100,8 +97,6 @@ header, footer {
   margin-left: 20px;
   margin-top: -13px;
   margin-bottom: 40px;
-  padding: none;
-  background-color: none;
 }
 .container2 {
   width: 200px;
@@ -115,18 +110,12 @@ header, footer {
 }
 
 .container-img {
-  width: 60%;
-  height: 450px;
+  width: 81.5%;
+  height: 500px;
   float: left;
-  background-color: black;
-  padding: none;
-  margin: none;
   margin-left: 50%;
-}
-
-nav{
-
-  display: block;
+  border-spacing: 0;
+  border-collapse: collapse;
 }
 
 img {
@@ -135,7 +124,12 @@ img {
   margin: none;
   padding: none;
   display: flow-root;
+  border: 0;
 }
 footer{
    display: block;
+}
+body{
+  margin: 0;
+  padding: 0;
 }
